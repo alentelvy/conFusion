@@ -4,9 +4,9 @@
 
 .row-content {
   margin: 0px auto;
-  padding: 50px 0px;
+  padding: 10px 0px;
   border-bottom: 1px ridge;
-  min-height: 400px; }
+  min-height: 50px; }
 
 .modal-header {
   background-color: #512DA8;
@@ -24,9 +24,11 @@
 
 .jumbotron {
   margin: 0px auto;
-  padding: 70px 30px;
-  background: #9575CD;
-  color: floralwhite; }
+  padding: 100px 20px;
+  padding-bottom: 15px;
+  background: white;}
+  .jumbotron .card-header{
+    background-color: #4a1c49;}
 
 address {
   font-size: 80%;
@@ -37,8 +39,9 @@ body {
   padding: 50px 0px 0px 0px;
   z-index: 0; }
 
-.navbar-dark {
-  background-color: #512DA8; }
+.navbar-light {
+  background:white; 
+  color: black;}
 
 .tab-content {
   border-left: 1px solid #ddd;
